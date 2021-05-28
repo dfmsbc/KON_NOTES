@@ -1,0 +1,119 @@
+H:\DFMsDesk\v0_6\bin\Debug\KON_Notes.exe.config
+H:\DFMsDesk\v0_6\bin\Debug\KON_Notes.exe
+H:\DFMsDesk\v0_6\bin\Debug\KON_Notes.pdb
+H:\DFMsDesk\v0_6\bin\Debug\FontAwesome.Sharp.dll
+H:\DFMsDesk\v0_6\obj\Debug\KON_Notes.csprojAssemblyReference.cache
+H:\DFMsDesk\v0_6\obj\Debug\KON_Notes.Form1.resources
+H:\DFMsDesk\v0_6\obj\Debug\KON_Notes.Form2.resources
+H:\DFMsDesk\v0_6\obj\Debug\KON_Notes.Form3.resources
+H:\DFMsDesk\v0_6\obj\Debug\KON_Notes.Form4.resources
+H:\DFMsDesk\v0_6\obj\Debug\KON_Notes.Properties.Resources.resources
+H:\DFMsDesk\v0_6\obj\Debug\KON_Notes.csproj.GenerateResource.cache
+H:\DFMsDesk\v0_6\obj\Debug\KON_Notes.csproj.CoreCompileInputs.cache
+H:\DFMsDesk\v0_6\obj\Debug\KON_Notes.csproj.CopyComplete
+H:\DFMsDesk\v0_6\obj\Debug\KON_Notes.exe
+H:\DFMsDesk\v0_6\obj\Debug\KON_Notes.pdb
+H:\DFMsDesk\KON_Notes\bin\Debug\KON_Notes.exe.config
+H:\DFMsDesk\KON_Notes\bin\Debug\KON_Notes.exe
+H:\DFMsDesk\KON_Notes\bin\Debug\KON_Notes.pdb
+H:\DFMsDesk\KON_Notes\bin\Debug\FontAwesome.Sharp.dll
+H:\DFMsDesk\KON_Notes\obj\Debug\KON_Notes.csprojAssemblyReference.cache
+H:\DFMsDesk\KON_Notes\obj\Debug\KON_Notes.Form1.resources
+H:\DFMsDesk\KON_Notes\obj\Debug\KON_Notes.Form2.resources
+H:\DFMsDesk\KON_Notes\obj\Debug\KON_Notes.Form3.resources
+H:\DFMsDesk\KON_Notes\obj\Debug\KON_Notes.Form4.resources
+H:\DFMsDesk\KON_Notes\obj\Debug\KON_Notes.Properties.Resources.resources
+H:\DFMsDesk\KON_Notes\obj\Debug\KON_Notes.csproj.GenerateResource.cache
+H:\DFMsDesk\KON_Notes\obj\Debug\KON_Notes.csproj.CoreCompileInputs.cache
+H:\DFMsDesk\KON_Notes\obj\Debug\KON_Notes.csproj.CopyComplete
+H:\DFMsDesk\KON_Notes\obj\Debug\KON_Notes.exe
+H:\DFMsDesk\KON_Notes\obj\Debug\KON_Notes.pdb
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\bin\Debug\KON_Notes.exe.config
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\bin\Debug\KON_Notes.exe
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\bin\Debug\KON_Notes.pdb
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csprojAssemblyReference.cache
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form1.resources
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form2.resources
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form3.resources
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form4.resources
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Properties.Resources.resources
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.GenerateResource.cache
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.CoreCompileInputs.cache
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.CopyComplete
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\KON_Notes.exe
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\KON_Notes.pdb
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\bin\Debug\Interop.WMPLib.dll
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\Interop.WMPLib.dll
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\11420\Desktop\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.ResolveComReference.cache
+C:\Users\ASUS\Documents\Tencent Files\2030697058\FileRecv\KON_Notes\KON_Notes\bin\Debug\KON_Notes.exe.config
+C:\Users\ASUS\Documents\Tencent Files\2030697058\FileRecv\KON_Notes\KON_Notes\obj\Debug\Interop.WMPLib.dll
+C:\Users\ASUS\Documents\Tencent Files\2030697058\FileRecv\KON_Notes\KON_Notes\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ASUS\Documents\Tencent Files\2030697058\FileRecv\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.ResolveComReference.cache
+C:\Users\ASUS\Documents\Tencent Files\2030697058\FileRecv\KON_Notes\KON_Notes\obj\Debug\KON_Notes.exe
+C:\Users\ASUS\Documents\Tencent Files\2030697058\FileRecv\KON_Notes\KON_Notes\obj\Debug\KON_Notes.pdb
+C:\Users\ASUS\Documents\tencent files\2030697058\FileRecv\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\tencent files\2030697058\FileRecv\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form1.resources
+C:\Users\ASUS\Documents\tencent files\2030697058\FileRecv\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form2.resources
+C:\Users\ASUS\Documents\tencent files\2030697058\FileRecv\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form3.resources
+C:\Users\ASUS\Documents\tencent files\2030697058\FileRecv\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form4.resources
+C:\Users\ASUS\Documents\tencent files\2030697058\FileRecv\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Properties.Resources.resources
+C:\Users\ASUS\Documents\tencent files\2030697058\FileRecv\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.GenerateResource.Cache
+C:\Users\ASUS\Documents\tencent files\2030697058\FileRecv\KON_Notes\KON_Notes\bin\Debug\KON_Notes.exe
+C:\Users\ASUS\Documents\tencent files\2030697058\FileRecv\KON_Notes\KON_Notes\bin\Debug\KON_Notes.pdb
+C:\Users\ASUS\Documents\tencent files\2030697058\FileRecv\KON_Notes\KON_Notes\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\ASUS\Documents\tencent files\2030697058\FileRecv\KON_Notes\KON_Notes\bin\Debug\Interop.WMPLib.dll
+C:\Users\ASUS\Documents\tencent files\2030697058\FileRecv\KON_Notes\KON_Notes\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\KON_Notes.exe.config
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\KON_Notes.exe
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\KON_Notes.pdb
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\Interop.WMPLib.dll
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csprojAssemblyReference.cache
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\Interop.WMPLib.dll
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.ResolveComReference.cache
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form1.resources
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form2.resources
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form3.resources
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form4.resources
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Properties.Resources.resources
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.GenerateResource.cache
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.CoreCompileInputs.cache
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.CopyComplete
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.exe
+C:\Users\11420\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.pdb
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csprojAssemblyReference.cache
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\Interop.WMPLib.dll
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.ResolveComReference.cache
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form1.resources
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form2.resources
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form3.resources
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form4.resources
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Properties.Resources.resources
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.GenerateResource.cache
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.CoreCompileInputs.cache
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.exe
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.pdb
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\KON_Notes.exe.config
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\KON_Notes.exe
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\KON_Notes.pdb
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\EntityFramework.dll
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\System.Data.SQLite.dll
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\EntityFramework.xml
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\System.Data.SQLite.xml
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\Interop.WMPLib.dll
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form5.resources
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.Form6.resources
+C:\Users\DFMSBC\Desktop\KON_Notes（1）\KON_Notes\KON_Notes\obj\Debug\KON_Notes.csproj.CopyComplete

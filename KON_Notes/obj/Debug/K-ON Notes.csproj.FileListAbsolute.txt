@@ -1,0 +1,15 @@
+H:\DFMsDesk\v0_6\bin\Debug\v0_6.exe.config
+H:\DFMsDesk\v0_6\bin\Debug\v0_6.exe
+H:\DFMsDesk\v0_6\bin\Debug\v0_6.pdb
+H:\DFMsDesk\v0_6\bin\Debug\FontAwesome.Sharp.dll
+H:\DFMsDesk\v0_6\obj\Debug\v0_6.Form1.resources
+H:\DFMsDesk\v0_6\obj\Debug\v0_6.Form2.resources
+H:\DFMsDesk\v0_6\obj\Debug\v0_6.Form3.resources
+H:\DFMsDesk\v0_6\obj\Debug\v0_6.Form4.resources
+H:\DFMsDesk\v0_6\obj\Debug\v0_6.Properties.Resources.resources
+H:\DFMsDesk\v0_6\obj\Debug\K-ON Notes.csproj.GenerateResource.cache
+H:\DFMsDesk\v0_6\obj\Debug\K-ON Notes.csproj.CoreCompileInputs.cache
+H:\DFMsDesk\v0_6\obj\Debug\K-ON Notes.csproj.CopyComplete
+H:\DFMsDesk\v0_6\obj\Debug\v0_6.exe
+H:\DFMsDesk\v0_6\obj\Debug\v0_6.pdb
+H:\DFMsDesk\v0_6\obj\Debug\K-ON Notes.csprojAssemblyReference.cache
