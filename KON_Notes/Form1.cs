@@ -249,7 +249,7 @@ namespace KON_Notes
         private void timer1_Tick(object sender, EventArgs e)
         {
             label1.Text = System.DateTime.Now.ToString("HH : mm : ss");
-            label2.Text = System.DateTime.Now.ToString("yyyy MMM dd,ddd");
+            label2.Text = System.DateTime.Now.ToString("yyyy MMM dd日,ddd");
         }
 
         

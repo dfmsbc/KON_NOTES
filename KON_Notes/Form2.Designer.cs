@@ -36,7 +36,9 @@ namespace KON_Notes
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.userControl11 = new ICONbutton.UserControl1();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button2
@@ -74,7 +76,15 @@ namespace KON_Notes
             // panel1
             // 
             resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Controls.Add(this.userControl11);
             this.panel1.Name = "panel1";
+            // 
+            // userControl11
+            // 
+            this.userControl11.BackColor = System.Drawing.Color.Transparent;
+            this.userControl11.DDL = new System.DateTime(((long)(0)));
+            resources.ApplyResources(this.userControl11, "userControl11");
+            this.userControl11.Name = "userControl11";
             // 
             // Form2
             // 
@@ -90,6 +100,7 @@ namespace KON_Notes
             this.Name = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -100,5 +111,6 @@ namespace KON_Notes
         private System.Windows.Forms.Timer timer1;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
         private System.Windows.Forms.Panel panel1;
+        private ICONbutton.UserControl1 userControl11;
     }
 }

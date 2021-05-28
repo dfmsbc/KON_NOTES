@@ -25,10 +25,10 @@ namespace KON_Notes
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            Form6 frm = new Form6();
+/*            Form6 frm = new Form6();
             frm.TopLevel = false;
-            panel1.Controls.Add(frm); // subtabcontrol是另一个子窗体 
-            frm.Show();
+            panel1.Controls.Add(frm); 
+            frm.Show();*/
 
         }
 
