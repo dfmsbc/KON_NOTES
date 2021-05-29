@@ -26,7 +26,7 @@ namespace KON_Notes
         {
             var ThisSQLiteConnection = new SQLiteConnection(@"DataSource=../Debug/notes.db");
             ThisSQLiteConnection.Open();
-            string sql = "select * from notes_table where finish=0";
+            string sql = "select* FROM notes_table where finish=0 ORDER BY importance DESC , ddl ASC;";
             SQLiteCommand command = new SQLiteCommand(sql, ThisSQLiteConnection);
             SQLiteDataReader rd = command.ExecuteReader();
             int num = 0;
@@ -35,31 +35,16 @@ namespace KON_Notes
             {
                 ICONbutton.UserControl1 test= new ICONbutton.UserControl1();
                 test.Location = new Point(3, y + num * 60);
-                test.Test = rd["case"].ToString();
+                test.Test = rd["test"].ToString();
                 test.DDL = (DateTime)rd["ddl"];
+                test.Complished = Convert.ToInt32(rd["finish"]);
+                test.Importance =Convert.ToInt32(rd["importance"]);
                 panel1.Controls.Add(test);
                 num++;
             }
 
 
         }
-
-       /* private void dataGridView1_RowPostPaint(object sender, DataGridViewRowPostPaintEventArgs e)
-        {
-
-            Rectangle rectangle = new Rectangle(e.RowBounds.Location.X,
-            e.RowBounds.Location.Y,
-            dataGridView1.RowHeadersWidth - 4,
-            e.RowBounds.Height);
-            TextRenderer.DrawText(e.Graphics,
-                  "任务"+(e.RowIndex + 1).ToString(),
-                   dataGridView1.RowHeadersDefaultCellStyle.Font,
-                   rectangle,
-                   dataGridView1.RowHeadersDefaultCellStyle.ForeColor,
-                   TextFormatFlags.VerticalCenter | TextFormatFlags.Right);
-        }*/
-
-
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -76,6 +61,13 @@ namespace KON_Notes
         {
             Form6 obj = new Form6();
             obj.ShowDialog();
+        }
+
+        private void iconPictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Controls.Clear();
+            InitializeComponent();
+            Form2_Load(this, null);
         }
     }
 }

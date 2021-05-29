@@ -149,3 +149,4 @@ H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\KON_Notes.exe
 H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\KON_Notes.pdb
 H:\DFMsDesk\Git\KON_NOTES\KON_Notes\bin\Debug\ICONbutton.dll
 H:\DFMsDesk\Git\KON_NOTES\KON_Notes\bin\Debug\ICONbutton.pdb
+H:\DFMsDesk\Git\KON_NOTES\KON_Notes\bin\Debug\ICONbutton.dll.config

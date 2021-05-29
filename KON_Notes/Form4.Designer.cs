@@ -93,7 +93,7 @@ namespace KON_Notes
             this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.LightCoral;
             this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.LightPink;
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
             this.bunifuGradientPanel1.Size = new System.Drawing.Size(219, 450);
@@ -121,7 +121,7 @@ namespace KON_Notes
             this.bunifuFlatButton3.IconZoom = 70D;
             this.bunifuFlatButton3.IsTab = true;
             this.bunifuFlatButton3.Location = new System.Drawing.Point(0, 394);
-            this.bunifuFlatButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuFlatButton3.Name = "bunifuFlatButton3";
             this.bunifuFlatButton3.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -157,7 +157,7 @@ namespace KON_Notes
             this.bunifuFlatButton2.IconZoom = 70D;
             this.bunifuFlatButton2.IsTab = true;
             this.bunifuFlatButton2.Location = new System.Drawing.Point(0, 331);
-            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuFlatButton2.Name = "bunifuFlatButton2";
             this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -193,7 +193,7 @@ namespace KON_Notes
             this.bunifuFlatButton1.IconZoom = 70D;
             this.bunifuFlatButton1.IsTab = true;
             this.bunifuFlatButton1.Location = new System.Drawing.Point(0, 268);
-            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent;
             this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -212,7 +212,7 @@ namespace KON_Notes
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(34, 48);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(144, 154);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -227,7 +227,7 @@ namespace KON_Notes
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(219, 365);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(581, 85);
             this.panel1.TabIndex = 1;
@@ -237,7 +237,7 @@ namespace KON_Notes
             this.bunifuProgressBar1.BackColor = System.Drawing.Color.White;
             this.bunifuProgressBar1.BorderRadius = 5;
             this.bunifuProgressBar1.Location = new System.Drawing.Point(8, 4);
-            this.bunifuProgressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuProgressBar1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuProgressBar1.MaximumValue = 100;
             this.bunifuProgressBar1.Name = "bunifuProgressBar1";
             this.bunifuProgressBar1.ProgressColor = System.Drawing.Color.SkyBlue;
@@ -267,7 +267,7 @@ namespace KON_Notes
             this.panel2.Controls.Add(this.单曲循环);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(581, 85);
             this.panel2.TabIndex = 10;
@@ -279,7 +279,7 @@ namespace KON_Notes
             this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
             this.bunifuImageButton1.ImageActive = null;
             this.bunifuImageButton1.Location = new System.Drawing.Point(281, 42);
-            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Size = new System.Drawing.Size(48, 34);
             this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -294,7 +294,7 @@ namespace KON_Notes
             this.bunifuImageButton6.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton6.Image")));
             this.bunifuImageButton6.ImageActive = null;
             this.bunifuImageButton6.Location = new System.Drawing.Point(342, 42);
-            this.bunifuImageButton6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton6.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton6.Name = "bunifuImageButton6";
             this.bunifuImageButton6.Size = new System.Drawing.Size(32, 34);
             this.bunifuImageButton6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -309,7 +309,7 @@ namespace KON_Notes
             this.bunifuImageButton7.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton7.Image")));
             this.bunifuImageButton7.ImageActive = null;
             this.bunifuImageButton7.Location = new System.Drawing.Point(179, 40);
-            this.bunifuImageButton7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton7.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton7.Name = "bunifuImageButton7";
             this.bunifuImageButton7.Size = new System.Drawing.Size(43, 36);
             this.bunifuImageButton7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -324,7 +324,7 @@ namespace KON_Notes
             this.bunifuImageButton8.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton8.Image")));
             this.bunifuImageButton8.ImageActive = null;
             this.bunifuImageButton8.Location = new System.Drawing.Point(127, 42);
-            this.bunifuImageButton8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton8.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton8.Name = "bunifuImageButton8";
             this.bunifuImageButton8.Size = new System.Drawing.Size(48, 34);
             this.bunifuImageButton8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -339,7 +339,7 @@ namespace KON_Notes
             this.bunifuImageButton9.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton9.Image")));
             this.bunifuImageButton9.ImageActive = null;
             this.bunifuImageButton9.Location = new System.Drawing.Point(226, 42);
-            this.bunifuImageButton9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton9.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton9.Name = "bunifuImageButton9";
             this.bunifuImageButton9.Size = new System.Drawing.Size(48, 34);
             this.bunifuImageButton9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -354,7 +354,7 @@ namespace KON_Notes
             this.bunifuImageButton10.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton10.Image")));
             this.bunifuImageButton10.ImageActive = null;
             this.bunifuImageButton10.Location = new System.Drawing.Point(383, 44);
-            this.bunifuImageButton10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton10.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton10.Name = "bunifuImageButton10";
             this.bunifuImageButton10.Size = new System.Drawing.Size(32, 34);
             this.bunifuImageButton10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -381,7 +381,7 @@ namespace KON_Notes
             this.bunifuSlider2.BorderRadius = 10;
             this.bunifuSlider2.IndicatorColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.bunifuSlider2.Location = new System.Drawing.Point(421, 46);
-            this.bunifuSlider2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSlider2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuSlider2.MaximumValue = 100;
             this.bunifuSlider2.Name = "bunifuSlider2";
             this.bunifuSlider2.Size = new System.Drawing.Size(112, 33);
@@ -430,7 +430,7 @@ namespace KON_Notes
             this.bunifuProgressBar2.BackColor = System.Drawing.Color.White;
             this.bunifuProgressBar2.BorderRadius = 5;
             this.bunifuProgressBar2.Location = new System.Drawing.Point(8, 4);
-            this.bunifuProgressBar2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuProgressBar2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuProgressBar2.MaximumValue = 100;
             this.bunifuProgressBar2.Name = "bunifuProgressBar2";
             this.bunifuProgressBar2.ProgressColor = System.Drawing.Color.SkyBlue;
@@ -444,7 +444,7 @@ namespace KON_Notes
             this.bunifuImageButton12.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton12.Image")));
             this.bunifuImageButton12.ImageActive = null;
             this.bunifuImageButton12.Location = new System.Drawing.Point(243, 51);
-            this.bunifuImageButton12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton12.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton12.Name = "bunifuImageButton12";
             this.bunifuImageButton12.Size = new System.Drawing.Size(17, 13);
             this.bunifuImageButton12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -459,7 +459,7 @@ namespace KON_Notes
             this.bunifuImageButton11.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton11.Image")));
             this.bunifuImageButton11.ImageActive = null;
             this.bunifuImageButton11.Location = new System.Drawing.Point(145, 51);
-            this.bunifuImageButton11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuImageButton11.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton11.Name = "bunifuImageButton11";
             this.bunifuImageButton11.Size = new System.Drawing.Size(12, 13);
             this.bunifuImageButton11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -474,7 +474,7 @@ namespace KON_Notes
             this.随机播放.Image = ((System.Drawing.Image)(resources.GetObject("随机播放.Image")));
             this.随机播放.ImageActive = null;
             this.随机播放.Location = new System.Drawing.Point(342, 46);
-            this.随机播放.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.随机播放.Margin = new System.Windows.Forms.Padding(2);
             this.随机播放.Name = "随机播放";
             this.随机播放.Size = new System.Drawing.Size(16, 18);
             this.随机播放.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -489,7 +489,7 @@ namespace KON_Notes
             this.列表循环.Image = ((System.Drawing.Image)(resources.GetObject("列表循环.Image")));
             this.列表循环.ImageActive = null;
             this.列表循环.Location = new System.Drawing.Point(285, 46);
-            this.列表循环.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.列表循环.Margin = new System.Windows.Forms.Padding(2);
             this.列表循环.Name = "列表循环";
             this.列表循环.Size = new System.Drawing.Size(13, 18);
             this.列表循环.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -504,7 +504,7 @@ namespace KON_Notes
             this.单曲循环.Image = ((System.Drawing.Image)(resources.GetObject("单曲循环.Image")));
             this.单曲循环.ImageActive = null;
             this.单曲循环.Location = new System.Drawing.Point(302, 49);
-            this.单曲循环.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.单曲循环.Margin = new System.Windows.Forms.Padding(2);
             this.单曲循环.Name = "单曲循环";
             this.单曲循环.Size = new System.Drawing.Size(16, 16);
             this.单曲循环.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -535,7 +535,7 @@ namespace KON_Notes
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 23;
             this.listBox1.Location = new System.Drawing.Point(0, 0);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(2);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(800, 450);
             this.listBox1.TabIndex = 3;
@@ -546,7 +546,7 @@ namespace KON_Notes
             this.axWindowsMediaPlayer2.Dock = System.Windows.Forms.DockStyle.Left;
             this.axWindowsMediaPlayer2.Enabled = true;
             this.axWindowsMediaPlayer2.Location = new System.Drawing.Point(219, 0);
-            this.axWindowsMediaPlayer2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.axWindowsMediaPlayer2.Margin = new System.Windows.Forms.Padding(2);
             this.axWindowsMediaPlayer2.Name = "axWindowsMediaPlayer2";
             this.axWindowsMediaPlayer2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer2.OcxState")));
             this.axWindowsMediaPlayer2.Size = new System.Drawing.Size(674, 365);
@@ -568,7 +568,7 @@ namespace KON_Notes
             this.Controls.Add(this.listBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "音乐播放器";
             this.bunifuGradientPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
