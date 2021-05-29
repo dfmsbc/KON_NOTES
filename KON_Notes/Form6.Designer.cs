@@ -29,33 +29,21 @@ namespace KON_Notes
         /// </summary>
         private void InitializeComponent()
         {
-            this.userControl11 = new ICONbutton.UserControl1();
             this.SuspendLayout();
             // 
-            // userControl11
-            // 
-            this.userControl11.BackColor = System.Drawing.Color.Transparent;
-            this.userControl11.Location = new System.Drawing.Point(163, 26);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(487, 50);
-            this.userControl11.TabIndex = 0;
-            // 
-            // Form6
+            // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.userControl11);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form6";
-            this.Text = "Form6";
-            this.Load += new System.EventHandler(this.Form6_Load);
+            this.Name = "Form5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "添加任务";
+            this.TopMost = true;
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private ICONbutton.UserControl1 userControl11;
     }
 }

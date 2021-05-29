@@ -22,13 +22,25 @@ namespace KON_Notes
         {
             InitializeComponent();
         }
-
         private void Form2_Load(object sender, EventArgs e)
         {
-/*            Form6 frm = new Form6();
-            frm.TopLevel = false;
-            panel1.Controls.Add(frm); 
-            frm.Show();*/
+            var ThisSQLiteConnection = new SQLiteConnection(@"DataSource=../Debug/notes.db");
+            ThisSQLiteConnection.Open();
+            string sql = "select * from notes_table where finish=0";
+            SQLiteCommand command = new SQLiteCommand(sql, ThisSQLiteConnection);
+            SQLiteDataReader rd = command.ExecuteReader();
+            int num = 0;
+            int y = 3;
+            while (rd.Read())
+            {
+                ICONbutton.UserControl1 test= new ICONbutton.UserControl1();
+                test.Location = new Point(3, y + num * 60);
+                test.Test = rd["case"].ToString();
+                test.DDL = (DateTime)rd["ddl"];
+                panel1.Controls.Add(test);
+                num++;
+            }
+
 
         }
 
@@ -57,6 +69,12 @@ namespace KON_Notes
         private void iconPictureBox1_Click(object sender, EventArgs e)
         {
             Form5 obj = new Form5();
+            obj.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form6 obj = new Form6();
             obj.ShowDialog();
         }
     }

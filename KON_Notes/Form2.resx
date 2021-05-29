@@ -213,35 +213,14 @@
   <data name="panel1.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
     <value>600, 356</value>
   </data>
-  <data name="userControl11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 13</value>
-  </data>
-  <data name="userControl11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>650, 57</value>
-  </data>
-  <data name="userControl11.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;userControl11.Name" xml:space="preserve">
-    <value>userControl11</value>
-  </data>
-  <data name="&gt;&gt;userControl11.Type" xml:space="preserve">
-    <value>ICONbutton.UserControl1, ICONbutton, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;userControl11.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;userControl11.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 12</value>
+    <value>44, 12</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>710, 356</value>
+    <value>731, 356</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;panel1.Name" xml:space="preserve">
     <value>panel1</value>
@@ -266,9 +245,6 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>800, 471</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>记事本</value>

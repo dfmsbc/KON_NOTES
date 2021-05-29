@@ -16,10 +16,5 @@ namespace KON_Notes
         {
             InitializeComponent();
         }
-
-        private void Form6_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
