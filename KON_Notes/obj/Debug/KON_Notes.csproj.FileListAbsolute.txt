@@ -140,7 +140,6 @@ H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\KON_Notes.Form2.resources
 H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\KON_Notes.Form3.resources
 H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\KON_Notes.Form4.resources
 H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\KON_Notes.Form5.resources
-H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\KON_Notes.Form6.resources
 H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\KON_Notes.Properties.Resources.resources
 H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\KON_Notes.csproj.GenerateResource.cache
 H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\KON_Notes.csproj.CoreCompileInputs.cache
@@ -150,3 +149,7 @@ H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\KON_Notes.pdb
 H:\DFMsDesk\Git\KON_NOTES\KON_Notes\bin\Debug\ICONbutton.dll
 H:\DFMsDesk\Git\KON_NOTES\KON_Notes\bin\Debug\ICONbutton.pdb
 H:\DFMsDesk\Git\KON_NOTES\KON_Notes\bin\Debug\ICONbutton.dll.config
+H:\DFMsDesk\Git\KON_NOTES\KON_Notes\bin\Debug\Interop.Shell32.dll
+H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\Interop.Shell32.dll
+H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\KON_Notes.Form3_add.resources
+H:\DFMsDesk\Git\KON_NOTES\KON_Notes\obj\Debug\KON_Notes.Form3_statistic.resources

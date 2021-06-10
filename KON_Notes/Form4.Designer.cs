@@ -32,47 +32,51 @@ namespace KON_Notes
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.tsslCurrentPlayState = new System.Windows.Forms.Label();
             this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bunifuProgressBar1 = new Bunifu.Framework.UI.BunifuProgressBar();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel8 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuSlider1 = new Bunifu.Framework.UI.BunifuSlider();
+            this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton6 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton7 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton8 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton9 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton10 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuSlider2 = new Bunifu.Framework.UI.BunifuSlider();
-            this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel8 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuProgressBar2 = new Bunifu.Framework.UI.BunifuProgressBar();
-            this.bunifuImageButton12 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton11 = new Bunifu.Framework.UI.BunifuImageButton();
             this.随机播放 = new Bunifu.Framework.UI.BunifuImageButton();
             this.列表循环 = new Bunifu.Framework.UI.BunifuImageButton();
             this.单曲循环 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.colNum = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colSinger = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colAlbum = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colDuration = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colSize = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.axWindowsMediaPlayer2 = new AxWMPLib.AxWindowsMediaPlayer();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.随机播放)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.列表循环)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.单曲循环)).BeginInit();
@@ -83,21 +87,36 @@ namespace KON_Notes
             // 
             this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
             this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel1.Controls.Add(this.tsslCurrentPlayState);
             this.bunifuGradientPanel1.Controls.Add(this.bunifuFlatButton3);
             this.bunifuGradientPanel1.Controls.Add(this.bunifuFlatButton2);
             this.bunifuGradientPanel1.Controls.Add(this.bunifuFlatButton1);
             this.bunifuGradientPanel1.Controls.Add(this.pictureBox1);
+            this.bunifuGradientPanel1.Controls.Add(this.bunifuCustomLabel6);
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.HotPink;
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.LightCoral;
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.LightPink;
+            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.SlateBlue;
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(68)))));
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(30)))), ((int)(((byte)(68)))));
+            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.LightSeaGreen;
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(219, 450);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(168, 450);
             this.bunifuGradientPanel1.TabIndex = 0;
+            // 
+            // tsslCurrentPlayState
+            // 
+            this.tsslCurrentPlayState.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.tsslCurrentPlayState.AutoSize = true;
+            this.tsslCurrentPlayState.BackColor = System.Drawing.Color.Transparent;
+            this.tsslCurrentPlayState.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tsslCurrentPlayState.ForeColor = System.Drawing.Color.Gainsboro;
+            this.tsslCurrentPlayState.Location = new System.Drawing.Point(28, 158);
+            this.tsslCurrentPlayState.Name = "tsslCurrentPlayState";
+            this.tsslCurrentPlayState.Size = new System.Drawing.Size(58, 24);
+            this.tsslCurrentPlayState.TabIndex = 4;
+            this.tsslCurrentPlayState.Text = "状态";
             // 
             // bunifuFlatButton3
             // 
@@ -127,7 +146,7 @@ namespace KON_Notes
             this.bunifuFlatButton3.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.bunifuFlatButton3.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton3.selected = false;
-            this.bunifuFlatButton3.Size = new System.Drawing.Size(219, 56);
+            this.bunifuFlatButton3.Size = new System.Drawing.Size(168, 56);
             this.bunifuFlatButton3.TabIndex = 3;
             this.bunifuFlatButton3.Text = "导入歌曲";
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -163,7 +182,7 @@ namespace KON_Notes
             this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(219, 56);
+            this.bunifuFlatButton2.Size = new System.Drawing.Size(169, 56);
             this.bunifuFlatButton2.TabIndex = 2;
             this.bunifuFlatButton2.Text = "正在播放";
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -199,7 +218,7 @@ namespace KON_Notes
             this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(219, 56);
+            this.bunifuFlatButton1.Size = new System.Drawing.Size(168, 56);
             this.bunifuFlatButton1.TabIndex = 1;
             this.bunifuFlatButton1.Text = "歌单";
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -211,7 +230,7 @@ namespace KON_Notes
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(34, 48);
+            this.pictureBox1.Location = new System.Drawing.Point(11, 2);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(144, 154);
@@ -220,65 +239,113 @@ namespace KON_Notes
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // bunifuCustomLabel6
+            // 
+            this.bunifuCustomLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuCustomLabel6.Font = new System.Drawing.Font("微软雅黑", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bunifuCustomLabel6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.bunifuCustomLabel6.Location = new System.Drawing.Point(2, 212);
+            this.bunifuCustomLabel6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
+            this.bunifuCustomLabel6.Size = new System.Drawing.Size(153, 52);
+            this.bunifuCustomLabel6.TabIndex = 3;
+            this.bunifuCustomLabel6.Text = "        歌曲名字";
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.panel1.Controls.Add(this.bunifuProgressBar1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(219, 365);
+            this.panel1.Location = new System.Drawing.Point(168, 365);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(581, 85);
+            this.panel1.Size = new System.Drawing.Size(632, 85);
             this.panel1.TabIndex = 1;
-            // 
-            // bunifuProgressBar1
-            // 
-            this.bunifuProgressBar1.BackColor = System.Drawing.Color.White;
-            this.bunifuProgressBar1.BorderRadius = 5;
-            this.bunifuProgressBar1.Location = new System.Drawing.Point(8, 4);
-            this.bunifuProgressBar1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuProgressBar1.MaximumValue = 100;
-            this.bunifuProgressBar1.Name = "bunifuProgressBar1";
-            this.bunifuProgressBar1.ProgressColor = System.Drawing.Color.SkyBlue;
-            this.bunifuProgressBar1.Size = new System.Drawing.Size(565, 9);
-            this.bunifuProgressBar1.TabIndex = 0;
-            this.bunifuProgressBar1.Value = 0;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.LightPink;
+            this.panel2.BackColor = System.Drawing.Color.LightSlateGray;
+            this.panel2.Controls.Add(this.bunifuCustomLabel8);
+            this.panel2.Controls.Add(this.bunifuCustomLabel7);
+            this.panel2.Controls.Add(this.bunifuSlider1);
+            this.panel2.Controls.Add(this.iconPictureBox1);
             this.panel2.Controls.Add(this.bunifuImageButton1);
             this.panel2.Controls.Add(this.bunifuImageButton6);
-            this.panel2.Controls.Add(this.bunifuImageButton7);
             this.panel2.Controls.Add(this.bunifuImageButton8);
             this.panel2.Controls.Add(this.bunifuImageButton9);
             this.panel2.Controls.Add(this.bunifuImageButton10);
             this.panel2.Controls.Add(this.bunifuCustomLabel5);
             this.panel2.Controls.Add(this.bunifuSlider2);
-            this.panel2.Controls.Add(this.bunifuCustomLabel6);
-            this.panel2.Controls.Add(this.bunifuCustomLabel7);
-            this.panel2.Controls.Add(this.bunifuCustomLabel8);
-            this.panel2.Controls.Add(this.bunifuProgressBar2);
-            this.panel2.Controls.Add(this.bunifuImageButton12);
-            this.panel2.Controls.Add(this.bunifuImageButton11);
             this.panel2.Controls.Add(this.随机播放);
             this.panel2.Controls.Add(this.列表循环);
             this.panel2.Controls.Add(this.单曲循环);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(581, 85);
+            this.panel2.Size = new System.Drawing.Size(632, 85);
             this.panel2.TabIndex = 10;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // bunifuCustomLabel8
+            // 
+            this.bunifuCustomLabel8.AutoSize = true;
+            this.bunifuCustomLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel8.Location = new System.Drawing.Point(7, 21);
+            this.bunifuCustomLabel8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.bunifuCustomLabel8.Name = "bunifuCustomLabel8";
+            this.bunifuCustomLabel8.Size = new System.Drawing.Size(36, 17);
+            this.bunifuCustomLabel8.TabIndex = 1;
+            this.bunifuCustomLabel8.Text = "0.00";
+            // 
+            // bunifuCustomLabel7
+            // 
+            this.bunifuCustomLabel7.AutoSize = true;
+            this.bunifuCustomLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel7.Location = new System.Drawing.Point(510, 21);
+            this.bunifuCustomLabel7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
+            this.bunifuCustomLabel7.Size = new System.Drawing.Size(36, 17);
+            this.bunifuCustomLabel7.TabIndex = 2;
+            this.bunifuCustomLabel7.Text = "0.00";
+            // 
+            // bunifuSlider1
+            // 
+            this.bunifuSlider1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSlider1.BackgroudColor = System.Drawing.Color.White;
+            this.bunifuSlider1.BorderRadius = 10;
+            this.bunifuSlider1.IndicatorColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.bunifuSlider1.Location = new System.Drawing.Point(9, -2);
+            this.bunifuSlider1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuSlider1.MaximumValue = 100;
+            this.bunifuSlider1.Name = "bunifuSlider1";
+            this.bunifuSlider1.Size = new System.Drawing.Size(593, 33);
+            this.bunifuSlider1.TabIndex = 17;
+            this.bunifuSlider1.Value = 0;
+            this.bunifuSlider1.ValueChanged += new System.EventHandler(this.bunifuSlider1_ValueChanged);
+            this.bunifuSlider1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.bunifuSlider1_Scroll);
+            // 
+            // iconPictureBox1
+            // 
+            this.iconPictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.PlayCircle;
+            this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconPictureBox1.IconSize = 49;
+            this.iconPictureBox1.Location = new System.Drawing.Point(133, 38);
+            this.iconPictureBox1.Name = "iconPictureBox1";
+            this.iconPictureBox1.Size = new System.Drawing.Size(49, 53);
+            this.iconPictureBox1.TabIndex = 16;
+            this.iconPictureBox1.TabStop = false;
+            this.iconPictureBox1.Click += new System.EventHandler(this.iconPictureBox1_Click);
             // 
             // bunifuImageButton1
             // 
             this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
             this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(281, 42);
+            this.bunifuImageButton1.Location = new System.Drawing.Point(285, 40);
             this.bunifuImageButton1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
             this.bunifuImageButton1.Size = new System.Drawing.Size(48, 34);
@@ -293,7 +360,7 @@ namespace KON_Notes
             this.bunifuImageButton6.BackColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton6.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton6.Image")));
             this.bunifuImageButton6.ImageActive = null;
-            this.bunifuImageButton6.Location = new System.Drawing.Point(342, 42);
+            this.bunifuImageButton6.Location = new System.Drawing.Point(355, 40);
             this.bunifuImageButton6.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton6.Name = "bunifuImageButton6";
             this.bunifuImageButton6.Size = new System.Drawing.Size(32, 34);
@@ -303,30 +370,15 @@ namespace KON_Notes
             this.bunifuImageButton6.Zoom = 10;
             this.bunifuImageButton6.Click += new System.EventHandler(this.bunifuImageButton6_Click);
             // 
-            // bunifuImageButton7
-            // 
-            this.bunifuImageButton7.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton7.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton7.Image")));
-            this.bunifuImageButton7.ImageActive = null;
-            this.bunifuImageButton7.Location = new System.Drawing.Point(179, 40);
-            this.bunifuImageButton7.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuImageButton7.Name = "bunifuImageButton7";
-            this.bunifuImageButton7.Size = new System.Drawing.Size(43, 36);
-            this.bunifuImageButton7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton7.TabIndex = 8;
-            this.bunifuImageButton7.TabStop = false;
-            this.bunifuImageButton7.Zoom = 10;
-            this.bunifuImageButton7.Click += new System.EventHandler(this.bunifuImageButton7_Click);
-            // 
             // bunifuImageButton8
             // 
             this.bunifuImageButton8.BackColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton8.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton8.Image")));
             this.bunifuImageButton8.ImageActive = null;
-            this.bunifuImageButton8.Location = new System.Drawing.Point(127, 42);
+            this.bunifuImageButton8.Location = new System.Drawing.Point(60, 38);
             this.bunifuImageButton8.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton8.Name = "bunifuImageButton8";
-            this.bunifuImageButton8.Size = new System.Drawing.Size(48, 34);
+            this.bunifuImageButton8.Size = new System.Drawing.Size(40, 40);
             this.bunifuImageButton8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bunifuImageButton8.TabIndex = 7;
             this.bunifuImageButton8.TabStop = false;
@@ -338,10 +390,10 @@ namespace KON_Notes
             this.bunifuImageButton9.BackColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton9.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton9.Image")));
             this.bunifuImageButton9.ImageActive = null;
-            this.bunifuImageButton9.Location = new System.Drawing.Point(226, 42);
+            this.bunifuImageButton9.Location = new System.Drawing.Point(213, 38);
             this.bunifuImageButton9.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton9.Name = "bunifuImageButton9";
-            this.bunifuImageButton9.Size = new System.Drawing.Size(48, 34);
+            this.bunifuImageButton9.Size = new System.Drawing.Size(40, 40);
             this.bunifuImageButton9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bunifuImageButton9.TabIndex = 6;
             this.bunifuImageButton9.TabStop = false;
@@ -353,7 +405,7 @@ namespace KON_Notes
             this.bunifuImageButton10.BackColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton10.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton10.Image")));
             this.bunifuImageButton10.ImageActive = null;
-            this.bunifuImageButton10.Location = new System.Drawing.Point(383, 44);
+            this.bunifuImageButton10.Location = new System.Drawing.Point(414, 40);
             this.bunifuImageButton10.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuImageButton10.Name = "bunifuImageButton10";
             this.bunifuImageButton10.Size = new System.Drawing.Size(32, 34);
@@ -366,13 +418,12 @@ namespace KON_Notes
             // 
             this.bunifuCustomLabel5.AutoSize = true;
             this.bunifuCustomLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel5.Location = new System.Drawing.Point(539, 52);
+            this.bunifuCustomLabel5.Location = new System.Drawing.Point(597, 48);
             this.bunifuCustomLabel5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
-            this.bunifuCustomLabel5.Size = new System.Drawing.Size(32, 17);
+            this.bunifuCustomLabel5.Size = new System.Drawing.Size(24, 17);
             this.bunifuCustomLabel5.TabIndex = 5;
-            this.bunifuCustomLabel5.Text = "100";
-            this.bunifuCustomLabel5.Click += new System.EventHandler(this.bunifuCustomLabel5_Click);
+            this.bunifuCustomLabel5.Text = "50";
             // 
             // bunifuSlider2
             // 
@@ -380,100 +431,22 @@ namespace KON_Notes
             this.bunifuSlider2.BackgroudColor = System.Drawing.Color.White;
             this.bunifuSlider2.BorderRadius = 10;
             this.bunifuSlider2.IndicatorColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.bunifuSlider2.Location = new System.Drawing.Point(421, 46);
+            this.bunifuSlider2.Location = new System.Drawing.Point(452, 42);
             this.bunifuSlider2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuSlider2.MaximumValue = 100;
             this.bunifuSlider2.Name = "bunifuSlider2";
-            this.bunifuSlider2.Size = new System.Drawing.Size(112, 33);
+            this.bunifuSlider2.Size = new System.Drawing.Size(128, 33);
             this.bunifuSlider2.TabIndex = 4;
             this.bunifuSlider2.Value = 100;
             this.bunifuSlider2.ValueChanged += new System.EventHandler(this.bunifuSlider2_ValueChanged);
-            // 
-            // bunifuCustomLabel6
-            // 
-            this.bunifuCustomLabel6.AutoSize = true;
-            this.bunifuCustomLabel6.Font = new System.Drawing.Font("微软雅黑", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.bunifuCustomLabel6.Location = new System.Drawing.Point(5, 31);
-            this.bunifuCustomLabel6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
-            this.bunifuCustomLabel6.Size = new System.Drawing.Size(78, 24);
-            this.bunifuCustomLabel6.TabIndex = 3;
-            this.bunifuCustomLabel6.Text = "歌曲名字";
-            this.bunifuCustomLabel6.Click += new System.EventHandler(this.bunifuCustomLabel6_Click);
-            // 
-            // bunifuCustomLabel7
-            // 
-            this.bunifuCustomLabel7.AutoSize = true;
-            this.bunifuCustomLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel7.Location = new System.Drawing.Point(528, 16);
-            this.bunifuCustomLabel7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
-            this.bunifuCustomLabel7.Size = new System.Drawing.Size(36, 17);
-            this.bunifuCustomLabel7.TabIndex = 2;
-            this.bunifuCustomLabel7.Text = "0.00";
-            this.bunifuCustomLabel7.Click += new System.EventHandler(this.bunifuCustomLabel7_Click);
-            // 
-            // bunifuCustomLabel8
-            // 
-            this.bunifuCustomLabel8.AutoSize = true;
-            this.bunifuCustomLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel8.Location = new System.Drawing.Point(6, 16);
-            this.bunifuCustomLabel8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.bunifuCustomLabel8.Name = "bunifuCustomLabel8";
-            this.bunifuCustomLabel8.Size = new System.Drawing.Size(36, 17);
-            this.bunifuCustomLabel8.TabIndex = 1;
-            this.bunifuCustomLabel8.Text = "0.00";
-            this.bunifuCustomLabel8.Click += new System.EventHandler(this.bunifuCustomLabel8_Click);
-            // 
-            // bunifuProgressBar2
-            // 
-            this.bunifuProgressBar2.BackColor = System.Drawing.Color.White;
-            this.bunifuProgressBar2.BorderRadius = 5;
-            this.bunifuProgressBar2.Location = new System.Drawing.Point(8, 4);
-            this.bunifuProgressBar2.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuProgressBar2.MaximumValue = 100;
-            this.bunifuProgressBar2.Name = "bunifuProgressBar2";
-            this.bunifuProgressBar2.ProgressColor = System.Drawing.Color.SkyBlue;
-            this.bunifuProgressBar2.Size = new System.Drawing.Size(565, 9);
-            this.bunifuProgressBar2.TabIndex = 0;
-            this.bunifuProgressBar2.Value = 0;
-            // 
-            // bunifuImageButton12
-            // 
-            this.bunifuImageButton12.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton12.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton12.Image")));
-            this.bunifuImageButton12.ImageActive = null;
-            this.bunifuImageButton12.Location = new System.Drawing.Point(243, 51);
-            this.bunifuImageButton12.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuImageButton12.Name = "bunifuImageButton12";
-            this.bunifuImageButton12.Size = new System.Drawing.Size(17, 13);
-            this.bunifuImageButton12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton12.TabIndex = 11;
-            this.bunifuImageButton12.TabStop = false;
-            this.bunifuImageButton12.Zoom = 10;
-            this.bunifuImageButton12.Click += new System.EventHandler(this.bunifuImageButton12_Click);
-            // 
-            // bunifuImageButton11
-            // 
-            this.bunifuImageButton11.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton11.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton11.Image")));
-            this.bunifuImageButton11.ImageActive = null;
-            this.bunifuImageButton11.Location = new System.Drawing.Point(145, 51);
-            this.bunifuImageButton11.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuImageButton11.Name = "bunifuImageButton11";
-            this.bunifuImageButton11.Size = new System.Drawing.Size(12, 13);
-            this.bunifuImageButton11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton11.TabIndex = 10;
-            this.bunifuImageButton11.TabStop = false;
-            this.bunifuImageButton11.Zoom = 10;
-            this.bunifuImageButton11.Click += new System.EventHandler(this.bunifuImageButton11_Click);
+            this.bunifuSlider2.Scroll += new System.Windows.Forms.ScrollEventHandler(this.bunifuSlider2_Scroll);
             // 
             // 随机播放
             // 
             this.随机播放.BackColor = System.Drawing.Color.Transparent;
             this.随机播放.Image = ((System.Drawing.Image)(resources.GetObject("随机播放.Image")));
             this.随机播放.ImageActive = null;
-            this.随机播放.Location = new System.Drawing.Point(342, 46);
+            this.随机播放.Location = new System.Drawing.Point(302, 46);
             this.随机播放.Margin = new System.Windows.Forms.Padding(2);
             this.随机播放.Name = "随机播放";
             this.随机播放.Size = new System.Drawing.Size(16, 18);
@@ -481,7 +454,6 @@ namespace KON_Notes
             this.随机播放.TabIndex = 15;
             this.随机播放.TabStop = false;
             this.随机播放.Zoom = 10;
-            this.随机播放.Click += new System.EventHandler(this.随机播放_Click);
             // 
             // 列表循环
             // 
@@ -496,7 +468,6 @@ namespace KON_Notes
             this.列表循环.TabIndex = 14;
             this.列表循环.TabStop = false;
             this.列表循环.Zoom = 10;
-            this.列表循环.Click += new System.EventHandler(this.bunifuImageButton3_Click);
             // 
             // 单曲循环
             // 
@@ -511,7 +482,36 @@ namespace KON_Notes
             this.单曲循环.TabIndex = 13;
             this.单曲循环.TabStop = false;
             this.单曲循环.Zoom = 10;
-            this.单曲循环.Click += new System.EventHandler(this.单曲循环_Click);
+            // 
+            // colNum
+            // 
+            this.colNum.Text = " ";
+            this.colNum.Width = 3;
+            // 
+            // colName
+            // 
+            this.colName.Text = "音乐标题";
+            this.colName.Width = 240;
+            // 
+            // colSinger
+            // 
+            this.colSinger.Text = "歌手";
+            this.colSinger.Width = 124;
+            // 
+            // colAlbum
+            // 
+            this.colAlbum.Text = "专辑";
+            this.colAlbum.Width = 102;
+            // 
+            // colDuration
+            // 
+            this.colDuration.Text = "时长";
+            this.colDuration.Width = 74;
+            // 
+            // colSize
+            // 
+            this.colSize.Text = "大小";
+            this.colSize.Width = 213;
             // 
             // bunifuElipse1
             // 
@@ -525,31 +525,15 @@ namespace KON_Notes
             this.bunifuDragControl1.TargetControl = this.bunifuGradientPanel1;
             this.bunifuDragControl1.Vertical = true;
             // 
-            // listBox1
-            // 
-            this.listBox1.BackColor = System.Drawing.Color.Black;
-            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBox1.Font = new System.Drawing.Font("微软雅黑", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.listBox1.ForeColor = System.Drawing.Color.White;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 23;
-            this.listBox1.Location = new System.Drawing.Point(0, 0);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(800, 450);
-            this.listBox1.TabIndex = 3;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            // 
             // axWindowsMediaPlayer2
             // 
             this.axWindowsMediaPlayer2.Dock = System.Windows.Forms.DockStyle.Left;
             this.axWindowsMediaPlayer2.Enabled = true;
-            this.axWindowsMediaPlayer2.Location = new System.Drawing.Point(219, 0);
+            this.axWindowsMediaPlayer2.Location = new System.Drawing.Point(168, 0);
             this.axWindowsMediaPlayer2.Margin = new System.Windows.Forms.Padding(2);
             this.axWindowsMediaPlayer2.Name = "axWindowsMediaPlayer2";
             this.axWindowsMediaPlayer2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer2.OcxState")));
-            this.axWindowsMediaPlayer2.Size = new System.Drawing.Size(674, 365);
+            this.axWindowsMediaPlayer2.Size = new System.Drawing.Size(632, 365);
             this.axWindowsMediaPlayer2.TabIndex = 2;
             this.axWindowsMediaPlayer2.PlayStateChange += new AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler(this.axWindowsMediaPlayer2_PlayStateChange);
             // 
@@ -557,31 +541,59 @@ namespace KON_Notes
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // listView1
+            // 
+            this.listView1.BackColor = System.Drawing.Color.Black;
+            this.listView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.colNum,
+            this.colName,
+            this.colSinger,
+            this.colAlbum,
+            this.colDuration,
+            this.colSize});
+            this.listView1.Font = new System.Drawing.Font("微软雅黑", 10.2F);
+            this.listView1.ForeColor = System.Drawing.Color.White;
+            this.listView1.FullRowSelect = true;
+            this.listView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(168, 3);
+            this.listView1.Name = "listView1";
+            this.listView1.OwnerDraw = true;
+            this.listView1.Scrollable = false;
+            this.listView1.Size = new System.Drawing.Size(629, 365);
+            this.listView1.TabIndex = 4;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.DrawColumnHeader += new System.Windows.Forms.DrawListViewColumnHeaderEventHandler(this.listView1_DrawColumnHeader);
+            this.listView1.DrawSubItem += new System.Windows.Forms.DrawListViewSubItemEventHandler(this.listView1_DrawSubItem);
+            this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.axWindowsMediaPlayer2);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.bunifuGradientPanel1);
-            this.Controls.Add(this.listBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form4";
             this.Text = "音乐播放器";
+            this.Load += new System.EventHandler(this.Form4_Load);
             this.bunifuGradientPanel1.ResumeLayout(false);
+            this.bunifuGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.随机播放)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.列表循环)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.单曲循环)).EndInit();
@@ -600,10 +612,8 @@ namespace KON_Notes
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
-        private Bunifu.Framework.UI.BunifuProgressBar bunifuProgressBar1;
         private System.Windows.Forms.Panel panel2;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton6;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton7;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton8;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton9;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton10;
@@ -612,15 +622,23 @@ namespace KON_Notes
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel7;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel8;
-        private Bunifu.Framework.UI.BunifuProgressBar bunifuProgressBar2;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton12;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton11;
-        private System.Windows.Forms.ListBox listBox1;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer2;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ColumnHeader colNum;
+        private System.Windows.Forms.ColumnHeader colName;
+        private System.Windows.Forms.ColumnHeader colSinger;
+        private System.Windows.Forms.ColumnHeader colAlbum;
+        private System.Windows.Forms.ColumnHeader colDuration;
+        private System.Windows.Forms.ColumnHeader colSize;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker2;
+        private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
+        private System.Windows.Forms.Label tsslCurrentPlayState;
         private Bunifu.Framework.UI.BunifuImageButton 随机播放;
         private Bunifu.Framework.UI.BunifuImageButton 列表循环;
         private Bunifu.Framework.UI.BunifuImageButton 单曲循环;
+        private Bunifu.Framework.UI.BunifuSlider bunifuSlider1;
+        private System.Windows.Forms.ListView listView1;
     }
 }

@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
+using System.Data.SQLite;
 
 namespace KON_Notes
 {
@@ -17,6 +18,7 @@ namespace KON_Notes
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentChildForm;
+        string min_remind = "";
         public Form1()
         {
             InitializeComponent();
@@ -24,6 +26,7 @@ namespace KON_Notes
             leftBorderBtn.Size = new Size(7, 80);
             panelMenu.Controls.Add(leftBorderBtn);
             timer1.Start();
+            
         }
         //靠近桌面隐藏
         int SH;
@@ -31,6 +34,8 @@ namespace KON_Notes
         int self_SH;
         int self_SW;
         int star_win_flag = 1;//窗口初始化位置标志位,防止隐藏窗口后定时器重新跑窗口函数再次在初始化位置打开
+        bool currentform = false; // 当前窗口是否为音乐窗口，若是，则为true 否则为false
+        int times = 0; //第几次按音乐按钮
         private void Form1_Load(object sender, EventArgs e)
         {
             //获取显示器屏幕的大小,不包括任务栏、停靠窗口
@@ -51,7 +56,58 @@ namespace KON_Notes
             MyTimer.Tick += new EventHandler(StopRectTimer_Tick);
             MyTimer.Interval = 100;
             MyTimer.Enabled = true;
+
+            //==================================================//
+            DateTime dt = DateTime.Now;
+            SQLiteConnection ThisSQLiteConnection = new SQLiteConnection(@"DataSource=../Debug/notes.db");
+            ThisSQLiteConnection.Open();                                            //打开链接
+            string sql = "select * from notes_table where remindtime > @dt and finish=0 ";  //写sql语句
+            SQLiteCommand command = new SQLiteCommand(sql, ThisSQLiteConnection);   //创建指令
+            command.Parameters.Add(new SQLiteParameter("@dt", dt));        //替换关键词
+            SQLiteDataReader rd = command.ExecuteReader();
+            bool flag = true;
+            while (rd.Read() && flag)
+            {
+                min_remind = rd["remindtime"].ToString();
+                flag = false;
+            }
+
         }
+        //==========窗口抖动函数===============//
+        private void Play()
+        {
+            int leftWidth = this.Left; //指定窗体左边值 
+            int topWidth = this.Top; //指定窗体上边值  
+
+
+            for (int i = 0; i < 20; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    this.Left = 510;
+                }
+                else //否则  
+                {
+                    this.Left = 490;
+                }
+                if (i % 2 == 0)
+                {
+                    this.Top = 210;
+                }
+                else//否则  
+                {
+                    this.Top = 190;
+                }
+
+
+                System.Threading.Thread.Sleep(100);//震动频率  
+            }
+
+
+            this.Left = leftWidth;//重设窗体初此左边值  
+            this.Top = topWidth; //重设窗体初此上边值  
+        }
+
         private struct RGBcolors
         {
             public static Color color1=Color.FromArgb(172,126,241);
@@ -95,11 +151,12 @@ namespace KON_Notes
         }
         private void OpenHomeform(Form childForm )
         {
-            if (currentChildForm != null)
+            if (currentChildForm != null && !currentform )
             {
                 currentChildForm.Close();
             }
             currentChildForm = childForm;
+            currentform = false;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
@@ -126,7 +183,21 @@ namespace KON_Notes
         private void ButtonMusic_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBcolors.color3);
-            OpenHomeform(new Form4());
+            times++;
+            if (times == 1)
+            {
+                OpenHomeform(new Form4());
+                currentform = true;
+            }
+            else if (times > 1)
+            {
+                if (!currentform)
+                {
+                    currentChildForm.Close();
+                }
+                currentform = true;
+            }
+            
         }
 
         private void btnHome_Click(object sender, EventArgs e)
@@ -250,6 +321,14 @@ namespace KON_Notes
         {
             label1.Text = System.DateTime.Now.ToString("HH : mm : ss");
             label2.Text = System.DateTime.Now.ToString("yyyy MMM dd日,ddd");
+
+
+
+            if (min_remind == DateTime.Now.ToString())
+            {
+                Play();
+
+            }
         }
 
         

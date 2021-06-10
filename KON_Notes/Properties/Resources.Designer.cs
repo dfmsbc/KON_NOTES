@@ -73,6 +73,16 @@ namespace KON_Notes.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap DefaultAlbum {
+            get {
+                object obj = ResourceManager.GetObject("DefaultAlbum", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap diugai_com162037513177341 {
             get {
                 object obj = ResourceManager.GetObject("diugai.com162037513177341", resourceCulture);
@@ -86,6 +96,26 @@ namespace KON_Notes.Properties {
         internal static System.Drawing.Bitmap logo {
             get {
                 object obj = ResourceManager.GetObject("logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 背景 {
+            get {
+                object obj = ResourceManager.GetObject("背景", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 背景1 {
+            get {
+                object obj = ResourceManager.GetObject("背景1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

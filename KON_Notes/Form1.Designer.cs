@@ -296,7 +296,7 @@ namespace KON_Notes
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox1.Image = global::KON_Notes.Properties.Resources.diugai_com162037513177341;
             this.pictureBox1.Location = new System.Drawing.Point(73, -83);
             this.pictureBox1.Name = "pictureBox1";
